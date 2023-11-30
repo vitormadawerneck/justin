@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+
+}
+
+section {
+    text-align: center;
+}
+
+h1 {}
+
+#peixe {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#capa {
+    background-image: url(https://usagif.com/wp-content/uploads/gifs/water-20.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#projeto {
+    background-image: url(https://img.freepik.com/fotos-premium/fundo-de-agua_23-2147795254.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+#luiz {
+    background-image: url(https://usagif.com/wp-content/uploads/2022/hqgif/ocean-wave-42-animated-waves-ocean-acegif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+
+}
+
+#titolo1 {
+    margin-top: 150px;
+
+
+
+}
+
+#titolo2 {
+    margin-bottom: 150px;
+
+
+}
+
+#titolo3 {
+    font-size: 20px;
+    color:rgb(11, 1, 1) ;
+
+}
+
+#titolo4 {
+    font-size: 60px;
+    margin-bottom: 40px;
+color: darkslategrey;
+}
+
+#projeto p {
+    font-size: 20px;
+}
+
+#botton:hover{
+    font-size: 25px;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    background-color: black;
+}
+#botton{border-radius: 50px;
+
+
+}
+
+.conteiner{ max-width: 1280px;
+margin: 0 auto;
+
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (max-width: 600px) {
+    #video{ 
+         width: 500px; 
+        height: 300px;
+}
+  }
+
+
